@@ -1,0 +1,6 @@
+.place {
+  margin: 0 auto 80px;
+  width: 984px;
+  display: grid;
+  /* grid-gap: 48px 40px; */
+}
