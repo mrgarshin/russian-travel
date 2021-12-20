@@ -23,10 +23,10 @@
 @media screen and (max-width: 767px) {
   .place__paragraph {
     max-width: 288px;
-    margin: 0 16px 0;
+    margin: 0 auto;
     grid-column: 1;
   }
   .place__paragraph:last-child {
-    margin: 0 16px 0;
+    margin: 0 auto;
   }
 }
