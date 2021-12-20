@@ -13,3 +13,20 @@
     max-width: 456px;
   }
 }
+@media screen and (min-width:768x) and (max-width: 1023px) {
+  .place__paragraph {
+    max-width: 352px;
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: 288px;
+    margin: 0 16px 0;
+    grid-column: 1;
+  }
+  .place__paragraph:last-child {
+    margin: 0 16px 0;
+  }
+}

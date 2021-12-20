@@ -1,6 +1,20 @@
 .place__website {
-  width: 456px;
+  max-width: 456px;
   margin: 0 0 48px;
   align-self: flex-end;
   grid-column: 2;
 } 
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  .place__website {
+    max-width: 352px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place__website {
+    grid-column: 1;
+    grid-row: 2;
+    width: 288px;
+    margin: 0 auto;
+    text-align: left;
+  }
+}

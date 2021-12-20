@@ -4,7 +4,19 @@
   width: 690px;
 }
 @media screen and (min-width: 1024px) and (max-width:1279px) {
-  .intro{
+  .intro {
     margin: 92px 0 92px 48px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width:1023px) {
+  .intro {
+    max-width: 720px;
+    margin: 88px auto;
+  }
+}
+@media screen and (max-width:767px) {
+  .intro {
+    max-width: 288px;
+    margin: 64px auto;
   }
 }

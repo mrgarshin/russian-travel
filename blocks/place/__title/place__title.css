@@ -8,3 +8,21 @@
   grid-column: 1;
   grid-row: 1;
 }
+@media screen and (min-width:768px) and (max-width: 1023px) {
+  .place__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .place__title {
+    width: 288px;
+    margin: 0 auto;
+    font-size: 32px;
+    line-height: 35px;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+  }
+}
