@@ -3,6 +3,8 @@
   margin: 0 0 48px;
   align-self: flex-end;
   grid-column: 2;
+  list-style: none;
+  padding: 0;
 } 
 @media screen and (min-width:768px) and (max-width: 1023px) {
   .place__website {
