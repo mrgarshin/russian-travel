@@ -11,10 +11,11 @@
   <div class="page">
     <header class="header">
       <img src="./images/header-logo.svg" alt="логотип" class="header__logo">
-      <nav>
+      <div class="header__lang-links">
         <a href="#" class="header__lang-link header__lang-link_selected">Ru</a>
         <a href="#" class="header__lang-link">En</a>
-      </nav>
+      </div>
+
     </header>
     <main class="main">
       <section class="lead">
@@ -36,8 +37,7 @@
         </ul>
       </section>
       
-      <!-- В секции ниже я использую <div> из-за того, что <section> и <article> требуют добавление заголовка, но по макету у этой секции нет заголовка, а по чек-листу не должно быть скрытых элементов на странице -->
-      <div class="photo-grid">
+      <section class="photo-grid">
         <ul class="photo-grid__items">
           <li><img src="./images/photo-grid-train.jpg" alt="поезд" class="photo-grid__item"></li>
           <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Атарва" class="photo-grid__item"></li>
@@ -52,7 +52,7 @@
           <li><img src="./images/photo-grid-baikal-2.jpg" alt="Байкал" class="photo-grid__item"></li>
           <li><img src="./images/photo-grid-ergaki.jpg" alt="Ергаки" class="photo-grid__item"></li>
         </ul>
-      </div>
+      </section>
 
       <section class="places">
         <div class="place">
@@ -113,7 +113,6 @@
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__background">
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-          <div class="cover__overlay"></div>
         </a>
       </section>
     </main>
