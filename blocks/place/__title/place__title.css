@@ -2,7 +2,8 @@
   max-width: 460px;
   margin:0 0 48px;
   text-align: left;
-  font-weight: bold;
+  font-family: "Inter-Black", Arial, sans-serif;
+  font-weight: 900;
   font-size: 72px;
   line-height: 76px;
   grid-column: 1;
