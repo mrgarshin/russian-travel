@@ -8,7 +8,7 @@
   padding: 0;
   margin: 0;
 }
-@media screen and (min-width: 1024px) and (max-width:1279px) {
+@media screen and (max-width:1279px) {
   .photo-grid__items {
     max-width: 928px;
     grid-template-columns: repeat(3, 300px);
@@ -16,7 +16,7 @@
     grid-gap: 14px;
   }
 }
-@media screen and (min-width: 768px) and (max-width:1023px) {
+@media screen and (max-width:1023px) {
   .photo-grid__items {
     max-width: 720px;
     grid-template-columns: repeat(2, 352px);
