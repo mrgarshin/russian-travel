@@ -3,14 +3,10 @@
   text-decoration: none;
   font-size: 24px;
   line-height: 28px;
-  margin: 0 18px 0 0;
   transition: 0.2s ease;
 }
 .header__lang-link:hover {
   opacity: 0.8;
-}
-.header__lang-link:last-child {
-  margin: 0;
 }
 @media screen and (max-width: 767px) {
   .header__lang-link {
